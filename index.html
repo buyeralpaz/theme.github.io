@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jualan Theme Web - Premium Sanz Theme</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: #fff;
+    }
+
+    header {
+      padding: 60px 20px 30px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1em;
+      color: #ccc;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .product-card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0, 255, 170, 0.15);
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .product-content {
+      padding: 20px;
+    }
+
+    .product-title {
+      font-size: 1.3em;
+      margin-bottom: 10px;
+      color: #00ffaa;
+    }
+
+    .benefits {
+      font-size: 0.95em;
+      color: #ccc;
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+
+    .benefits span {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .wa-button {
+      display: inline-block;
+      padding: 10px 18px;
+      background-color: #00ffaa;
+      color: #000;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: 0.3s ease;
+    }
+
+    .wa-button:hover {
+      background-color: #00dd99;
+    }
+    .visitor-counter {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.7);
+  padding: 6px 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.visitor-counter img {
+  width: 18px;
+  height: 18px;
+}
+.pengunjung-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  text-align: center;
+  opacity: 0.6;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 6px 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.watermark {
+  display: block;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.icon-mata {
+  margin-right: 4px;
+}
+
+.pengunjung-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 10px;
+  color: #444;
+  gap: 6px;
+}
+
+.pengunjung-judul {
+  font-weight: 400;
+}
+  <style>
+  body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pengunjung-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #555;
+    margin-top: 10px;
+    gap: 5px;
+  }
+
+  .ikon-mata {
+    font-size: 14px;
+  }
+<style>
+  body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pengunjung-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #555;
+    margin-top: 10px;
+    gap: 5px;
+  }
+
+  .ikon-mata {
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+<div class="pengunjung-info">
+  <span class="pengunjung-judul">Theme Web Premium Sanz Theme</span>
+  <span class="ikon-mata">👁️</span>
+  <span id="counter">...</span>
+</div>
+  <header>
+    <h1>Theme Web Premium Sanz Theme</h1>
+    <p>Pilih theme terbaik untuk website profesionalmu</p>
+  </header>
+
+  <section class="products">
+        <!-- Produk 1 -->
+    <div class="product-card">
+      <img src="https://files.catbox.moe/r2rsc4.jpg" alt="Theme 1">
+      <div class="product-content">
+        <h2 class="product-title">Theme 7 Produk Berbeda</h2>
+        <div class="benefits">
+          <span>- Desain modern & elegan</span>
+          <span>- Fully responsive</span>
+          <span>- Optimasi kecepatan</span>
+          <span>- Jamin Tampilan Keren</span>
+          <span>- Bisa Request Latar Belakang / Foto</span>
+          <span>- Tersedia Sampai 7  Produk Bisa Request</span>
+          <span>- Beli Bisa Request Nama Domain</span>
+          <span>- Web Aktif Selamanya/Seumur Hidup</span>
+          <span>- Web Anti Delay</span>
+        </div>
+        <a class="wa-button" href="https://wa.me/6285272976447?text=Halo+min+saya+mau+Beli+Theme+7+Produk+Berbeda+">Order via WhatsApp</a>
+      </div>
+    </div>
+        <!-- Produk 1 -->
+    <div class="product-card">
+      <img src="https://files.catbox.moe/r4vw70.jpg" alt="Theme 1">
+      <div class="product-content">
+        <h2 class="product-title">Theme Nokos</h2>
+        <div class="benefits">
+          <span>- Desain modern & elegan</span>
+          <span>- Fully responsive</span>
+          <span>- Optimasi kecepatan</span>
+          <span>- Jamin Tampilan Keren</span>
+          <span>- Bisa Request Latar Belakang / Foto</span>
+          <span>- Tersedia Sampai 40 Negera</span>
+          <span>- Beli Bisa Request Nama Domain</span>
+          <span>- Web Aktif Selamanya/Seumur Hidup</span>
+          <span>- Web Anti Delay</span>
+        </div>
+        <a class="wa-button" href="https://wa.me/6285272976447?text=Halo+min+saya+mau+Beli+Theme+Nokos">Order via WhatsApp</a>
+      </div>
+    </div>
+    <!-- Produk 2 - 10 Dummy -->
+    <!-- Ganti gambar & konten sesuai kebutuhan -->
+    <!-- Copy & edit dari blok ini -->
+    <!-- Tambah sampai produk ke-10 tinggal copy blok atas -->
+    <div class="product-card">
+      <img src="https://files.catbox.moe/8slqde.jpg" alt="Theme 3">
+      <div class="product-content">
+        <h2 class="product-title">Theme Store all payment</h2>
+        <div class="benefits">
+          <span>- Full Responsive Anti Delay Tampilan Ui</span>
+          <span>- Bisa Request Nama Nomor Ovo Gopay Dana Qris</span>
+          <span>- Bisa Request Latar Belakang / Foto</span>
+          <span>- Web Aktif Selamanya</span>
+          <span>- Web Anti Mokad </span>
+          <span>- Anti Delay </span>
+          <span>- Bisa Request Nama Domain</span>
+          <a class="wa-button" href="https://wa.me/6285272976447?text=Halo+admin+saya+mau+Beli+Theme+Payment">Order via WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+</body>
+<script>
+  fetch('https://api.countapi.xyz/hit/buythemealvincom.vercel.app/visits')
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById('counter').innerText = data.value;
+    });
+</script>
+</html>
